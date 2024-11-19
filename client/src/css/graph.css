@@ -1,0 +1,11 @@
+.graph-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+}
+
+button {
+    font-size: 0.9rem;
+    padding: 5px;
+}

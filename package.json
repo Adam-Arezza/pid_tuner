@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "create-react-app": "^5.0.1"
+  },
+  "name": "arduino_pid_tuner",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "npm start --prefix client",
+    "start": "concurrently --kill-others \"node server/index.js\" \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
